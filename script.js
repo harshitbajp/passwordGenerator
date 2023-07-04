@@ -196,7 +196,7 @@ generateBtn.addEventListener('click', () => {
     for(let i=0; i<funcArr.length; i++) {
         password += funcArr[i]();
     }
-    console.log("COmpulsory adddition done");
+    console.log("Compulsory adddition done");
 
     //remaining adddition
     for(let i=0; i<passwordLength-funcArr.length; i++) {
